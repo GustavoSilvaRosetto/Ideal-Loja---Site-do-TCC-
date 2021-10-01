@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Ideal Loja</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https: //fonts.googleapis.com/css2? family = Poppins & display = swap " rel=" stylesheet ">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+  <div class="info-color">
+    <div class="info-container">
+      <p> A Loja ideal você encontra aqui </p>
+      <a href="tel:+55119999-9999"> 11-9999-9999 </a>
+    </div>
+  </div>
+  <header class="menu-color">
+    <div class="menu-container">
+      <div class="menu-logo">
+        <a href="index.html"> <img src="ideal.png" alt="logo.png">
+        </a>
+      </div>
+      <nav class="menu-nav">
+        <ul>
+          <li> <a href="#mostruario"> Lojas </a> </li>
+          <li> <a href="#contato"> Fale conosco </a> </li>
+          <li> <a href="#sobre"> Sobre nós </a> </li>
+          <li> <a href="#"> Criar Conta </a> </li>
+        </ul>
+      </nav>
+      <div class="position-end">
+        <div class="pesquisa-box">
+          <input type="text" class="pesquisa-text" placeholder="Procure um sonho">
+          <a href="#" class="pesquisa-button">
+            <img src="pesquisa.svg" alt="lupa" width="30" height="30">
+          </a>
+        </div>
+        <a href="#" class="cart"> <img src="cart.svg" alt="carrinho">
+
+        </a>
+        <a href="#" class="user"> <img src="user.svg" alt="entrar">
+
+        </a>
+      </div>
+    </div>
+  </header>
+  <section class="carrosel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Banner1.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="banner2.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="banner3.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <section class="mostruario bg-mostruario" id="mostruario">
+    <div class="mostruario1">
+      <p> Melhores Produtos para informatica você encontra aqui </p>
+      <a href="#">Adquira agora</a>
+    </div>
+    <div class="alinhado-juntos">
+      <div class="mostruario2">
+        <p> Melhores Produtos de Vestimenta você encontra aqui </p>
+        <a href="#">Adquira agora</a>
+      </div>
+      <div class="mostruario3">
+        <p> Melhores Tipos de Comida você encontra aqui </p>
+        <a href="#">Adquira agora</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="sobre-bg" id="sobre">
+    <div class="container-sobre">
+      <div class="sobre-info">
+        <h1> Sobre </h1>
+        <p> Estamos totalmente focado em facilitar a sua compra e a sua venda. <br>
+          Aqui você encontra sua Loja Ideal e seu Cliente Ideal </p>
+        <h1> Valores </h1>
+        <ul>
+          <li>Foco no Lojista</li>
+          <li>Foco no Cliente</li>
+          <li>Vamos te dar suporte todos os dias</li>
+          <li>Valores que cabem <br> no seu bolso</li>
+        </ul>
+      </div>
+      <div class="img-sobre">
+        <img src="Goodteam.gif" alt="Sobre">
+      </div>
+    </div>
+  </section>
+  <section class="container-contato" id="contato">
+    <div class="img-contato">
+      <img src="form.gif">
+    </div>
+    <form action="https://api.staticforms.xyz/submit" method="POST" class="contato-form" id="form">
+      <h1> Entre em contato </h1>
+      <input type="text" name="honeypot" style="display: none;"> <!-- Optional -->
+      <input type="hidden" name="accessKey" value="6ee0bd86-ab89-4d4d-8073-8c94b5185bc2">
+      <input type="hidden" name="redirectTo" value="index.html">
+      <label>Nome</label>
+      <input class="btn-contato" type="text" maxlength="60" name="name" class="caixas" placeholder="  Nome completo" required="Preencha"><br>
+
+      <label>E-mail</label>
+      <input class="btn-contato" type="email" maxlength="60" name="email" class="caixas" placeholder="  E-mail" required="Preencha"><br>
+
+      <label>Telefone</label>
+      <input class="btn-contato" type="tel" minlength="11" maxlength="14" name="phone" class="caixas" placeholder="  Telefone" required="Preencha"><br>
+
+      <label>Mensagem</label>
+      <textarea name="message" required="Preencha"></textarea> <br>
+
+      <input type="submit" name="botao" value="Enviar" class="botoes"><br><br>
+    </form>
+  </section>
+
+  <footer class="bg-footer">
+    <div class="footer-container">
+      <h1> Copyright © Ideal loja - 2021 </h1>
+    </div>
+  </footer>
+</body>
+
+<script src="js/ap.js"></script>
+
+</html>

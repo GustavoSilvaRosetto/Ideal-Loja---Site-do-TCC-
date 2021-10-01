@@ -1,0 +1,632 @@
+body,
+h1,
+h2,
+p,
+ul,
+li,
+a {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Informação de contato e frases da loja */
+
+.info-color {
+  background: white;
+  color: #945eff;
+}
+
+.info-color p,
+.info-color a {
+  color: #945eff;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0px 10px 10px 10px;
+}
+
+.info-container {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 10px;
+}
+
+/* Informação de contato e frases da loja */
+
+/* Menu da loja */
+
+.menu-color {
+  background: #945eff;
+}
+
+.menu-container {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 15px 0px;
+}
+
+.menu-logo {
+  margin: 0 10px;
+}
+
+.menu-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu-nav a {
+  display: block;
+  font-size: 1.2em;
+  color: white;
+  padding: 10px;
+  font-weight: 500;
+}
+
+.position-end {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  align-items: center;
+}
+
+.pesquisa-box {
+  margin: 0 10px;
+  padding: 5px;
+  border-radius: 40px;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pesquisa-text {
+  border: none;
+  background: none;
+  outline: none;
+  padding: 0px;
+  color: #945eff;
+  font-size: 1.1em;
+  line-height: 40px;
+  width: 0;
+  transition: 0.5s;
+}
+
+.pesquisa-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  transition: 0.5s;
+}
+
+::-webkit-input-placeholder {
+  color: #945eff;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+.pesquisa-box:hover > .pesquisa-text {
+  width: 240px;
+  padding: 5px;
+}
+
+.pesquisa-box:hover > .pesquisa-button {
+  background: black;
+}
+
+.cart img {
+  width: 40px;
+  height: 50px;
+  margin: 5px;
+}
+
+.user img {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+}
+
+/* Fim do Menu da loja */
+
+/* Divulgação produtos */
+
+.carrosel {
+  max-width: 960px;
+  padding: 30px 0px 0px 0px;
+  margin: 0 auto;
+}
+
+.carousel-item img {
+  border-radius: 10px;
+}
+
+.bg-mostruario {
+  background-color: white;
+}
+
+.mostruario {
+  padding: 60px 0px;
+  max-width: 960px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.mostruario1 {
+  max-width: 500px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  background: rgba(0, 0, 0, 0.7) url(teste1.jpg) center;
+  background-blend-mode: darken;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 0px 3px 4px grey;
+}
+
+.alinhado-juntos {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.mostruario1 p {
+  font-size: 1.5em;
+  color: white;
+  font-weight: 600;
+  margin: 20px;
+}
+
+.mostruario1 a {
+  font-weight: bold;
+  background-color: #945eff;
+  padding: 25px;
+  color: white;
+  border-radius: 50px;
+  align-self: flex-start;
+  margin: 0px 20px;
+  transition: 0.5s;
+}
+
+.mostruario1 a:hover {
+  padding: 30px;
+}
+
+.mostruario2 {
+  max-width: 400px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  background: rgba(0, 0, 0, 0.7) url(teste2.jpg) center;
+  background-blend-mode: darken;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 0px 3px 4px grey;
+}
+
+.mostruario2 p {
+  font-size: 1.5em;
+  color: white;
+  font-weight: 600;
+  margin: 10px 20px;
+}
+
+.mostruario2 a {
+  font-weight: bold;
+  background-color: #945eff;
+  padding: 25px;
+  color: white;
+  border-radius: 50px;
+  align-self: flex-start;
+  margin: 0px 20px;
+  transition: 0.5s;
+}
+
+.mostruario2 a:hover {
+  padding: 30px;
+}
+
+.mostruario3 {
+  max-width: 400px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background: rgba(0, 0, 0, 0.7) url(3.jpg) center;
+  background-blend-mode: darken;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 0px 3px 4px grey;
+}
+
+.mostruario3 p {
+  font-size: 1.5em;
+  color: white;
+  font-weight: 600;
+  margin: 10px 20px;
+}
+
+.mostruario3 a {
+  font-weight: bold;
+  background-color: #945eff;
+  padding: 25px;
+  color: white;
+  border-radius: 50px;
+  align-self: flex-start;
+  margin: 0px 20px;
+  transition: 0.5s;
+}
+
+.mostruario3 a:hover {
+  padding: 30px;
+}
+
+/* Fim do Mostruario */
+
+/* Começo do Sobre */
+
+.sobre-bg {
+  background: #945eff;
+}
+
+.container-sobre {
+  max-width: 960px;
+  margin: 0px auto;
+  padding: 60px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.sobre-info {
+  width: 280px;
+}
+
+.sobre-info h1 {
+  font-size: 2.5em;
+  color: white;
+  padding: 0px 10px;
+}
+
+.sobre-info p {
+  padding: 10px;
+  font-size: 1.25em;
+  color: white;
+  text-align: start;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.sobre-info ul {
+  padding: 10px;
+  list-style: none;
+  line-height: 1.5;
+}
+
+.sobre-info li {
+  font-size: 1.25em;
+  color: white;
+}
+
+.sobre-info li:before {
+  content: "\2022";
+  margin: 0 2px;
+  font-size: 1.25em;
+  color: #6f46bf;
+}
+
+.img-sobre {
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.img-sobre img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Fim do Sobre */
+
+/* Inicio do Contato */
+
+.container-contato {
+  padding: 60px calc((100% - 960px) / 2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.img-contato {
+  max-width: 500px;
+  max-height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.img-contato h1 {
+  text-align: center;
+  font-size: 2.5em;
+  color: #945eff;
+}
+
+.img-contato img {
+  width: 100%;
+  height: 100%;
+}
+
+.contato-form {
+  width: 350px;
+  margin: 0 10px;
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  color: #6f46bf;
+  font-size: 1.2em;
+  font-weight: bold;
+  outline: none;
+}
+
+.contato-form h1 {
+  font-size: 2em;
+  text-align: center;
+  color: #6f46bf;
+  margin-bottom: 10px;
+}
+
+.contato-form input {
+  font-size: 1.25em;
+  border: 5px solid #945eff;
+  background: #945eff;
+  color: white;
+  border-radius: 2px;
+  outline: none;
+}
+.contato-form textarea {
+  font-size: 1.25em;
+  color: white;
+  border: 5px solid #945eff;
+  background: #945eff;
+  height: 120px;
+  margin: 0px;
+  border-radius: 2px;
+  outline: none;
+}
+
+.botoes {
+  width: 150px;
+  font-size: 2.25em;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0px;
+  cursor: pointer;
+  border: 0px;
+  border-radius: 0px;
+  padding: 0px 0px;
+  color: white;
+  transition: 0.5s;
+}
+
+.botoes:hover {
+  background: white;
+  color: #945eff;
+}
+/* Fim do Contato */
+
+/* Começo do footer */
+
+.bg-footer {
+  background: #945eff;
+}
+
+.footer-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 0px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.footer-container h1 {
+  font-size: 1.5em;
+  color: white;
+  padding: 0px 10px;
+}
+
+/* Fim do Footer */
+/* Responsivo */
+
+@media (max-width: 870px) {
+  .pesquisa-box {
+    visibility: hidden;
+  }
+
+  .carousel-item img {
+    border-radius: 0px;
+  }
+
+  .mostruario {
+    flex-direction: column;
+  }
+  .mostruario1 {
+    max-width: 400px;
+    height: 200px;
+  }
+
+  .container-sobre {
+    flex-direction: column;
+  }
+  .container-contato {
+    justify-content: center;
+  }
+
+  .container-contato .img-contato:nth-child(1) {
+    order: 2;
+  }
+
+  .container-contato .contato-form:nth-child(2) {
+    order: 1;
+  }
+
+  .footer-container {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .info-container {
+    justify-content: center;
+  }
+  .menu-container {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .menu-nav ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .pesquisa-box {
+    margin: 0px;
+    padding: 5px;
+    border-radius: 50px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .position-end {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pesquisa-box {
+    visibility: visible;
+  }
+
+  .cart img {
+    max-width: 60px;
+    height: 60px;
+  }
+
+  .user img {
+    max-width: 60px;
+    height: 60px;
+  }
+
+  .mostruario {
+    margin: 10px;
+  }
+
+  .mostruario1 p {
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    margin: 0px;
+  }
+
+  .mostruario1 a {
+    font-weight: bold;
+    background-color: #945eff;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    align-self: center;
+    margin: 5px;
+    transition: 0.5s;
+  }
+
+  .mostruario1 a:hover {
+    padding: 20px;
+  }
+
+  .mostruario2 p {
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    margin: 0px;
+  }
+
+  .mostruario2 a {
+    font-weight: bold;
+    background-color: #945eff;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    align-self: center;
+    margin: 5px;
+    transition: 0.5s;
+  }
+
+  .mostruario2 a:hover {
+    padding: 20px;
+  }
+
+  .mostruario3 p {
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    margin: 0px;
+  }
+
+  .mostruario3 a {
+    font-weight: bold;
+    background-color: #945eff;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    align-self: center;
+    margin: 5px;
+    transition: 0.5s;
+  }
+
+  .mostruario3 a:hover {
+    padding: 20px;
+  }
+}
